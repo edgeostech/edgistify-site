@@ -1,0 +1,235 @@
+@font-face {
+  font-family: "Outfit";
+  font-style: "light";
+  font-weight: 100;
+  font-display: swap;
+  src: url("~/assets/fonts/Outfit-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Outfit";
+  font-style: "medium";
+  font-weight: 400;
+  font-display: swap;
+  src: url("~/assets/fonts/Outfit-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Outfit";
+  font-style: "regular";
+  font-weight: 500;
+  font-display: swap;
+  src: url("~/assets/fonts/Outfit-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Outfit";
+  font-style: "semiBold";
+  font-weight: 600;
+  font-display: swap;
+  src: url("~/assets/fonts/Outfit-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "NotoSerif";
+  font-style: "light";
+  font-weight: 100;
+  font-display: swap;
+  src: url("~/assets/fonts/NotoSerif-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "NotoSerif";
+  font-style: "medium";
+  font-weight: 400;
+  font-display: swap;
+  src: url("~/assets/fonts/NotoSerif-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "NotoSerif";
+  font-style: "regular";
+  font-weight: 500;
+  font-display: swap;
+  src: url("~/assets/fonts/NotoSerif-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "NotoSerif";
+  font-style: "semiBold";
+  font-weight: 600;
+  font-display: swap;
+  src: url("~/assets/fonts/NotoSerif-SemiBold.ttf") format("truetype");
+}
+
+html {
+  font-family: "Outfit";
+  font-weight: 400;
+  background-color: #0c0c0c;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.v-application .info {
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
+.dashboard_content {
+  padding-top: 4% !important;
+  padding-right: 4% !important;
+  padding-bottom: 50px !important;
+  padding-left: 0 !important;
+}
+
+.dashboard_content p {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px !important;
+  line-height: 20px !important;
+  color: #0c0c0c !important;
+}
+
+.v-application .primary {
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 11.5px 26px;
+  font-family: "Noto Serif";
+  font-weight: 700 !important;
+  height: 48px !important;
+  font-size: 18px !important;
+  border-radius: 38px !important;
+  width: 11rem;
+  transition: all 0.3s ease-in-out;
+  text-transform: initial !important;
+}
+
+.bg-black {
+  background-color: #00a699 !important;
+  color: white !important;
+}
+.bg-black:hover {
+  /* box-shadow: inset 178px 0 0 0 #ffffff; */
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+.image-gif {
+  height: 34.688rem;
+}
+
+.v-btn--is-elevated {
+  box-shadow: unset !important;
+}
+
+.image-jpg {
+  height: 25.625rem;
+}
+.multi-select{
+  color: white !important;
+}
+
+.multi-select .v-select__selections, .v-label.v-label--active.theme--light{
+  color: white !important;
+
+}
+.multi-select > .v-input__control > .v-input__slot:before {
+  border-color: white !important;
+}
+.theme--light.v-label {
+    color: white !important;
+
+}
+.multi-select .v-icon.v-icon {
+  color: white !important;
+
+}
+.v-select .v-chip {
+  height: 24px !important;
+}
+
+.multi-select-white > .v-input__control > .v-input__slot:before {
+  border-color: black !important;
+}
+
+@media screen and (max-width: 850px) {
+  .image-gif {
+    height: 18.625rem !important;
+  }
+
+  .no-space.v-text-field {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    }
+  .image-jpg {
+    height: 15.375rem !important;
+  }
+  .button {
+    font-size: 14px !important;
+    line-height: 20px !important;
+    font-weight: 300 !important;
+  }
+
+  .title .title_header p {
+    font-size: 2rem !important;
+    line-height: 2rem !important;
+  }
+
+.content-para-list .list{
+  padding: 8px !important;
+}
+}
+.bg-green {
+  background-color: white !important;
+  color: #00a699 !important;
+}
+.bg-green:hover {
+  background-color: #000000 !important;
+  color: white !important;
+}
+
+.bg-white {
+  background-color: #00a699 !important;
+  color: white !important;
+}
+.bg-white:hover {
+  /* box-shadow: inset 178px 0 0 0 #000000; */
+  background-color: #000000 !important;
+  color: white !important;
+}
+
+h1 {
+  font-family: "Noto Serif";
+}
+p,
+.h2 {
+  font-family: "Outfit";
+}
+.h1 {
+  font-family: "Noto Serif" !important;
+}
+.para {
+  font-family: "Outfit" !important;
+}
+
+.primaryColor--light {
+  color: #00a699;
+  background: #ffffff;
+}
+
+.main_title h1 {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42.13px;
+  line-height: 57px;
+  padding: 12px 12px 12px 0 !important;
+}
