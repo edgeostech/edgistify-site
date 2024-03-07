@@ -117,7 +117,7 @@
                 :to="{
                   path: '/Privacy',
                 }"
-                @click.native="scrollToLocation"
+                @click.native="scrollToLocation()"
                 style="text-decoration: none; color: inherit"
               >
               <span>Privacy Policy</span>
@@ -127,7 +127,7 @@
                 :to="{
                   path: '/Terms',
                 }"
-                @click.native="scrollToLocation"
+                @click.native="scrollToLocation()"
                 style="text-decoration: none; color: inherit"
               >
               <span>Terms and Conditions</span>
@@ -137,7 +137,7 @@
                 :to="{
                   path: '/Sitemap',
                 }"
-                @click.native="scrollToLocation"
+                @click.native="scrollToLocation()"
                 style="text-decoration: none; color: inherit"
               >
               <span>Sitemap</span>
@@ -255,7 +255,7 @@
                 :to="{
                   path: '/Privacy',
                 }"
-                @click.native="scrollToLocation"
+                @click.native="scrollToLocation()"
                 style="text-decoration: none; color: inherit"
               >
               <span>Privacy Policy</span>
@@ -266,7 +266,7 @@
                 :to="{
                   path: '/Terms',
                 }"
-                @click.native="scrollToLocation"
+                @click.native="scrollToLocation()"
                 style="text-decoration: none; color: inherit"
               >
               <span>Terms and Conditions</span>
@@ -276,7 +276,7 @@
                 :to="{
                   path: '/Sitemap',
                 }"
-                @click.native="scrollToLocation"
+                @click.native="scrollToLocation()"
                 style="text-decoration: none; color: inherit"
               >
               <span>Sitemap</span>
@@ -304,7 +304,12 @@ export default {
       showModal: false,
     };
   },
-  methods: {},
+  methods: {
+  
+    scrollToLocation() {
+      console.log("scroll")
+    }
+  },
   mounted () {
     if (window.innerWidth < 850) {
       this.isDevice = true;
