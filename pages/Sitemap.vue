@@ -1,15 +1,9 @@
 <template>
   <v-container fluid class="privacy-container pa-0">
     <h1 class="pa-0">Sitemap</h1>
-    <div id="top">
-      <nav>edgistify.com HTML Site Map</nav>
-      <h3>
-        <span
-          >Last updated: 2023, October 6 11:40:11<br />
-          Total pages: 8</span
-        >
-        <a href="https://edgistify.com/">edgistify.com Homepage</a>
-      </h3>
+    <div id="top" class="">
+      <nav>Edgistify Site Map</nav>
+      
     </div>
     <div id="cont">
       <ul class="ultree level-1 has-pages">
@@ -299,7 +293,7 @@ body {
   text-decoration-line: underline;
 }
 #top {
-  background-color: #b1d1e8;
+  // background-color: #b1d1e8;
   font-size: 16px;
   padding-bottom: 40px;
 }
